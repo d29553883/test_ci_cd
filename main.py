@@ -10,6 +10,7 @@ from apscheduler.triggers.interval import IntervalTrigger
 import os, sys
 
 
+
 # 取得環境辨識
 ENV = os.getenv("ENV", "dev")
 # 如果為正式環境，前面需要帶入 notify，組合就成為 /notify/api/v1.....
