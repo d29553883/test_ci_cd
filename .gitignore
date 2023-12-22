@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.dev.env
+*/__pycache__
+*.py[cod]
+*.csv
+test
+docker-compose.yml
